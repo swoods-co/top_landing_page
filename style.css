@@ -38,6 +38,9 @@ nav {
 }
 footer {
     background-color:var(--dark-bg);
+    color:var(--dark-color);
+    text-align:center;
+    padding:50px;
 }
 #hero {
     background-color:var(--dark-bg);
@@ -113,5 +116,33 @@ h1 {
     text-align:right;
 }
 #cta {
-
+    background-color:var(--light-blue);
+    border-radius:10px;
+    color:var(--dark-color);
+    padding:50px 100px;
+    display:flex;
+    flex-direction: row;
+    align-items:center;
+}
+#cta > * {
+    flex:50 auto;
+}
+#cta p, #cta h3 {
+    margin:0;
+}
+#cta h3 {
+    font-size:24px;
+    font-weight:800;
+}
+#cta_btn {
+    text-align:center;
+}
+#cta button {
+    padding:10px 25px;
+    background-color:transparent;
+    border:var(--dark-color) 2px solid;
+    border-radius:10px;
+    color:var(--dark-color);
+    font-weight:bold;
+    font-size:24px;
 }
